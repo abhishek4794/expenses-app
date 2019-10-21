@@ -1,7 +1,7 @@
 import * as React from "react";
 import ScrollableTabsButtonAuto from "../components/HeaderTabPanel";
 import IconLabelTabs from "../components/FooterTabPanel";
-import './style.css';
+import './style.less';
 
 type MyProps = {
     // using `interface` is also ok
