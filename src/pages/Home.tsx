@@ -18,8 +18,11 @@ export class Home extends React.Component<MyProps, MyState> {
     render() {
         return (
             <div className='expense-app'>
+                <div className='app-bar'> App bar </div>
                 <ScrollableTabsButtonAuto />
-                <IconLabelTabs />
+                <div className='footer-container'>
+                    <IconLabelTabs />
+                </div>
             </div>
         );
     }
